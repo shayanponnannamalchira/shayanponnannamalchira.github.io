@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Grace School Of International Music Artistic Mural Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#eecd2b",
+                        "accent-teal": "#4fd1c5",
+                        "accent-purple": "#9f7aea",
+                        "background-light": "#f8f8f6",
+                        "background-dark": "#121019", 
+                        "charcoal": "#0a090e"
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">body {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"%23eecd2b\"><path d=\"M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z\"/></svg>"), auto
+    }
+.glow-hover:hover {
+    box-shadow: 0 0 20px rgba(238, 205, 43, 0.4);
+    border-color: #eecd2b
+    }
+.bg-mural {
+    /* Replace the URL below with your image link */
+    background-image: linear-gradient(rgba(18, 16, 25, 0.8), rgba(18, 16, 25, 0.8)), 
+                      url('1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.glass-panel {
+    background: rgba(18, 16, 25, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3)
+    }
+.custom-scrollbar::-webkit-scrollbar {
+    height: 4px
+    }
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05)
+    }
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #eecd2b;
+    border-radius: 10px
+    }</style>
+</head>
+<body class="font-display bg-mural text-slate-900 dark:text-white selection:bg-primary selection:text-background-dark min-h-screen">
+<div class="min-h-screen">
+<header class="fixed top-0 left-0 w-full z-50 px-6 py-4 md:px-20 lg:px-40 bg-background-dark/90 backdrop-blur-md border-b border-white/10 shadow-lg">
+<div class="max-w-[1440px] mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl drop-shadow-[0_0_8px_rgba(238,205,43,0.5)]">music_note</span>
+<h2 class="text-white text-lg font-bold tracking-tight uppercase">Grace School of international music</h2>
+</div>
+<nav class="flex items-center gap-10">
+<a class="text-white/80 hover:text-primary transition-colors text-sm font-medium uppercase tracking-wide" href="#about">About</a>
+<a class="text-white/80 hover:text-primary transition-colors text-sm font-medium uppercase tracking-wide" href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+<section class="relative h-screen flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-b from-background-dark/30 via-transparent to-background-dark/90 pointer-events-none z-0"></div>
+<div class="absolute inset-0 opacity-40 pointer-events-none">
+<div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[120px] mix-blend-screen"></div>
+<div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent-purple/20 rounded-full blur-[120px] mix-blend-screen"></div>
+</div>
+<div class="relative z-10 text-center px-4 max-w-4xl glass-panel p-12 rounded-3xl mx-4 border-white/10">
+<div class="flex justify-center mb-6">
+<div class="w-px h-16 bg-gradient-to-b from-transparent to-primary"></div>
+</div>
+<h1 class="text-white text-5xl md:text-7xl lg:text-8xl font-black leading-tight tracking-tighter mb-6 uppercase drop-shadow-2xl">
+            Grace School<br/><span class="text-primary italic text-4xl md:text-6xl lg:text-7xl block mt-2">Of International Music</span>
+</h1>
+<p class="text-white/90 text-lg md:text-xl font-light tracking-widest uppercase drop-shadow-lg mb-8">
+            Professional Music Training • Guitar • Keyboard • Drums
+        </p>
+<div class="mt-8">
+</div>
+</div>
+</section>
+<section class="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 lg:px-40 py-24 gap-12" id="guitar">
+<div class="flex-1 order-2 md:order-1">
+<div class="max-w-xl p-8 rounded-2xl glass-panel border-l-4 border-l-primary hover:border-l-accent-teal transition-all duration-500">
+<h2 class="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">Learn Guitar – From Basics to Advanced</h2>
+<p class="text-white/90 text-lg leading-relaxed mb-8">
+                From your first chords to advanced techniques, learn acoustic, electric, or bass guitar with a structured, easy-to-follow approach.
+            </p>
+<div class="flex flex-wrap gap-4">
+<div class="px-4 py-2 bg-white/5 rounded-lg border border-white/20 text-white text-sm font-bold tracking-wide hover:bg-primary hover:text-background-dark hover:border-primary transition-colors cursor-default">Acoustic</div>
+<div class="px-4 py-2 bg-white/5 rounded-lg border border-white/20 text-white text-sm font-bold tracking-wide hover:bg-primary hover:text-background-dark hover:border-primary transition-colors cursor-default">Electric</div>
+<div class="px-4 py-2 bg-white/5 rounded-lg border border-white/20 text-white text-sm font-bold tracking-wide hover:bg-primary hover:text-background-dark hover:border-primary transition-colors cursor-default">Bass</div>
+</div>
+</div>
+</div>
+<div class="flex-1 order-1 md:order-2 flex justify-center">
+<div class="relative w-full aspect-square max-w-md group perspective-1000">
+<div class="absolute inset-0 bg-primary/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+<div class="w-full h-full glass-panel rounded-2xl overflow-hidden relative flex items-center justify-center shadow-2xl transform transition-transform duration-700 hover:rotate-2">
+<img alt="Modern minimalist aesthetic of an acoustic guitar" class="w-full h-full object-cover opacity-90 group-hover:scale-110 transition-transform duration-700 mix-blend-overlay" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKztzJ72W7e4EUMTREoBpgq8-UJLLojbBb_naPUx55M6LZJnpkBmeBxiQmzIMfKdFcI0NINsWKrssmuarErxj9iUvzZfPAcx9Xc-H8dGA0I-6vKnrlQS-tAPsahXikf2SqIsrTWK1Bixkzutg-eyeaInkhMh6EUuWJPShbDkXbN5n-ihE7tXQwkEoNOpmTklNrxwLdZ3Bt19uZNwIGOcASGjJSvbGyTmaDSJ7DPvJsRF75XOceIf2A54AOqytYQZB9CpuLO2liA-WY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute inset-0 flex flex-col justify-center px-12 gap-6 group-hover:opacity-100 opacity-60 transition-opacity z-10">
+<div class="h-[2px] w-full bg-white/40 group-hover:bg-primary transition-colors shadow-[0_0_8px_rgba(238,205,43,0)] group-hover:shadow-[0_0_15px_rgba(238,205,43,1)]"></div>
+<div class="h-[2px] w-full bg-white/40 group-hover:bg-primary transition-colors"></div>
+<div class="h-[2px] w-full bg-white/40 group-hover:bg-primary transition-colors"></div>
+<div class="h-[2px] w-full bg-white/40 group-hover:bg-primary transition-colors"></div>
+<div class="h-[2px] w-full bg-white/40 group-hover:bg-primary transition-colors"></div>
+<div class="h-[2px] w-full bg-white/40 group-hover:bg-primary transition-colors"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 lg:px-40 py-24 gap-12" id="keyboard">
+<div class="flex-1 flex justify-center">
+<div class="relative w-full aspect-video max-w-lg shadow-2xl glass-panel p-4 rounded-xl">
+<div class="grid grid-cols-12 h-64 gap-1">
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2"></div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2 relative">
+<div class="absolute top-0 right-[-25%] w-1/2 h-2/3 bg-background-dark rounded-b-sm z-10 border border-white/10"></div>
+</div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2 relative">
+<div class="absolute top-0 right-[-25%] w-1/2 h-2/3 bg-background-dark rounded-b-sm z-10 border border-white/10"></div>
+</div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2"></div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2 relative">
+<div class="absolute top-0 right-[-25%] w-1/2 h-2/3 bg-background-dark rounded-b-sm z-10 border border-white/10"></div>
+</div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2 relative">
+<div class="absolute top-0 right-[-25%] w-1/2 h-2/3 bg-background-dark rounded-b-sm z-10 border border-white/10"></div>
+</div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2 relative">
+<div class="absolute top-0 right-[-25%] w-1/2 h-2/3 bg-background-dark rounded-b-sm z-10 border border-white/10"></div>
+</div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2"></div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2 relative">
+<div class="absolute top-0 right-[-25%] w-1/2 h-2/3 bg-background-dark rounded-b-sm z-10 border border-white/10"></div>
+</div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2 relative">
+<div class="absolute top-0 right-[-25%] w-1/2 h-2/3 bg-background-dark rounded-b-sm z-10 border border-white/10"></div>
+</div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2"></div>
+<div class="bg-white rounded-b-md h-full hover:bg-accent-purple hover:shadow-[0_0_15px_rgba(159,122,234,0.8)] transition-all duration-300 transform hover:translate-y-2"></div>
+</div>
+</div>
+</div>
+<div class="flex-1">
+<div class="max-w-xl p-8 rounded-2xl glass-panel border-l-4 border-l-accent-purple hover:border-l-primary transition-all duration-500">
+<h2 class="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">Master the Keyboard with Precision</h2>
+<p class="text-white/90 text-lg leading-relaxed mb-8">
+                From classical compositions to contemporary synthesis. Our personalised lessons help you understand theory, rhythm, and the art of performance.
+            </p>
+<div class="space-y-4">
+<div class="flex items-center gap-4 text-white/90">
+<span class="material-symbols-outlined text-accent-purple">check_circle</span>
+<span>Personalized Curriculum</span>
+</div>
+<div class="flex items-center gap-4 text-white/90">
+<span class="material-symbols-outlined text-accent-purple">check_circle</span>
+<span>Performance Training</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 lg:px-40 py-24 gap-12" id="drums">
+<div class="flex-1">
+<div class="max-w-xl p-8 rounded-2xl glass-panel border-l-4 border-l-accent-teal hover:border-l-primary transition-all duration-500">
+<h2 class="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">Learn Drums - Master Rhythm and Groove</h2>
+<p class="text-white/90 text-lg leading-relaxed mb-8">
+                Unleash your rhythmic potential. Our drum training emphasizes timing, coordination, and versatility, helping you master a wide range of playing styles with confidence.
+            </p>
+</div>
+</div>
+<div class="flex-1 flex justify-center">
+<div class="relative w-full aspect-square max-w-md group">
+<div class="absolute inset-0 bg-accent-teal/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+<div class="w-full h-full glass-panel rounded-2xl overflow-hidden relative shadow-2xl hover:scale-105 transition-transform duration-500 p-2">
+<img alt="Modern drum kit professional photography" class="w-full h-full object-cover opacity-90 rounded-xl group-hover:scale-105 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGRyLyz1S7WeeVkIdvOvxHd2dAKSSKeUNRPVTRHra45icLRejaFjXdNi2FJYPNvSBzPJ-hB1sVlDb_LncFS2Gq9oeQyjvX53WZw6yoz4iBeO_uAiYBYya5eSeP4Z8SQRY5SxzXiLGdse6i-7xemCBb8fw7xcbLHtS3XBde27yf21_HQUHpyGCs-BpLSD7el0mtp9dfCgRwhchg5Y-NDgxdwkoSRau35-7lasbPo_ipBbvzwxXsxJ5PDBQ4zM4pUlLjsf1JKyC-wupO"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/80 via-transparent to-transparent"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 md:px-20 lg:px-40 py-32" id="about">
+<div class="max-w-[1440px] mx-auto relative">
+<div class="absolute inset-0 -m-8 glass-panel rounded-3xl -z-10 bg-black/40"></div>
+<div class="text-center mb-20">
+<h2 class="text-4xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight drop-shadow-lg">Why Choose Grace?</h2>
+<div class="w-24 h-1 bg-gradient-to-r from-primary via-accent-purple to-accent-teal mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-10 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-primary/50 transition-all group shadow-lg hover:-translate-y-2">
+<span class="material-symbols-outlined text-primary text-4xl mb-6 bg-white/10 p-4 rounded-full">school</span>
+<h3 class="text-xl font-bold mb-4 text-white">Experienced Instructors</h3>
+<p class="text-white/70 leading-relaxed">
+                    Learn from skilled musicians and certified educators with real-world performance and teaching experience—committed to helping you grow at every stage.
+                </p>
+</div>
+<div class="p-10 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-accent-purple/50 transition-all group shadow-lg hover:-translate-y-2">
+<span class="material-symbols-outlined text-accent-purple text-4xl mb-6 bg-white/10 p-4 rounded-full">person</span>
+<h3 class="text-xl font-bold mb-4 text-white">Personalised Lessons</h3>
+<p class="text-white/70 leading-relaxed">
+                    No one-size-fits-all lessons. Every student follows a customised learning path tailored to their goals, skill level, and pace.
+                </p>
+</div>
+<div class="p-10 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-accent-teal/50 transition-all group shadow-lg hover:-translate-y-2">
+<span class="material-symbols-outlined text-accent-teal text-4xl mb-6 bg-white/10 p-4 rounded-full">volunteer_activism</span>
+<h3 class="text-xl font-bold mb-4 text-white">Friendly Environment</h3>
+<p class="text-white/70 leading-relaxed">
+                    Be part of a welcoming space for music lovers in Bengaluru. Learn, collaborate, perform, and grow together in a positive environment.
+                </p>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 md:px-20 lg:px-40 py-32" id="life-at-grace">
+<div class="max-w-[1440px] mx-auto">
+<div class="glass-panel p-8 md:p-12 rounded-3xl border border-white/5">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-2xl">
+<span class="text-primary font-bold tracking-[0.2em] uppercase text-sm mb-4 block">Our Community</span>
+<h2 class="text-4xl md:text-5xl font-black text-white uppercase tracking-tight drop-shadow-lg">Where Music Lives</h2>
+</div>
+<div class="flex gap-4">
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+  <!-- Image 12.jpeg -->
+  <div class="relative overflow-hidden rounded-xl group shadow-2xl border border-white/10 h-[300px]">
+    <img
+      src="12.jpeg"
+      alt="Student practice session"
+      class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+    />
+    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent
+                opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+    </div>
+  </div>
+
+  <!-- Image 21.jpeg -->
+  <div class="relative overflow-hidden rounded-xl group shadow-2xl border border-white/10 h-[300px]">
+    <img
+      src="21.jpeg"
+      alt="Mentor-led session"
+      class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+    />
+    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent
+                opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 md:px-20 lg:px-40 py-32">
+<div class="max-w-[1440px] mx-auto">
+<div class="text-center mb-20">
+<h2 class="text-4xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight drop-shadow-lg">What Our Students Think</h2>
+<div class="w-24 h-1 bg-white/20 mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-8 rounded-xl glass-panel hover:bg-white/10 transition-all border border-white/5 relative overflow-hidden shadow-lg group">
+<div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-primary text-8xl italic">format_quote</span>
+</div>
+<p class="text-white/90 italic mb-8 relative z-10 text-lg leading-relaxed">"The personalized approach at Grace is unmatched. I went from barely knowing chords to performing my first solo in just six months."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-px bg-primary"></div>
+<span class="text-primary font-bold tracking-widest uppercase text-xs">Arjun Sharma</span>
+</div>
+</div>
+<div class="p-8 rounded-xl glass-panel hover:bg-white/10 transition-all border border-white/5 relative overflow-hidden shadow-lg group">
+<div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-accent-purple text-8xl italic">format_quote</span>
+</div>
+<p class="text-white/90 italic mb-8 relative z-10 text-lg leading-relaxed">"Learning drums here has been an incredible experience. The instructors focus on groove and rhythm in a way that feels natural."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-px bg-accent-purple"></div>
+<span class="text-accent-purple font-bold tracking-widest uppercase text-xs">Priya Menon</span>
+</div>
+</div>
+<div class="p-8 rounded-xl glass-panel hover:bg-white/10 transition-all border border-white/5 relative overflow-hidden shadow-lg group">
+<div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-accent-teal text-8xl italic">format_quote</span>
+</div>
+<p class="text-white/90 italic mb-8 relative z-10 text-lg leading-relaxed">"The environment is so welcoming. It's not just a school; it's a community where we share our passion for international music."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-px bg-accent-teal"></div>
+<span class="text-accent-teal font-bold tracking-widest uppercase text-xs">Rohan Das</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 md:px-20 lg:px-40 py-32 border-t border-white/5 bg-black/40 backdrop-blur-lg" id="find-us">
+<div class="max-w-[1440px] mx-auto">
+<div class="flex flex-col lg:flex-row items-center gap-16">
+<div class="flex-1 w-full order-2 lg:order-1">
+<div class="relative w-full h-[450px] rounded-2xl overflow-hidden border border-white/20 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl glass-panel p-2">
+<iframe allowfullscreen="" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1129544975543!2d77.58784347514106!3d13.028475513615431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae179377477145%3A0x6336e4f0d3b66d6a!2s10th%20Cross%20Rd%2C%20Dasarahalli%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1714823456789!5m2!1sen!2sin" style="border:0; border-radius: 0.75rem;" width="100%">
+</iframe>
+</div>
+</div>
+<div class="flex-1 order-1 lg:order-2">
+<span class="text-primary font-bold tracking-[0.2em] uppercase text-sm mb-4 block">Our Location</span>
+<h2 class="text-4xl md:text-5xl font-black text-white mb-8 leading-tight uppercase drop-shadow-lg">Visit Our Institute</h2>
+<div class="space-y-6 mb-10">
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">location_on</span>
+<div>
+<p class="text-white text-xl font-medium mb-1">Hebbal Branch</p>
+<p class="text-white/70 leading-relaxed">45, 10th Cross Rd, Dasarahalli, Dasarahalli Main Rd, Maruthi Layout, Hebbal, Bengaluru, Karnataka 560024</p>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-3 bg-primary text-background-dark px-10 py-4 rounded-lg font-bold hover:scale-105 transition-transform hover:shadow-[0_0_20px_rgba(238,205,43,0.4)]" href="https://www.google.com/maps/search/?api=1&amp;query=45,+10th+Cross+Rd,+Dasarahalli,+Dasarahalli+Main+Rd,+Maruthi+Layout,+Hebbal,+Bengaluru,+Karnataka+560024" target="_blank">
+<span>Open in Google Maps</span>
+<span class="material-symbols-outlined text-xl">map</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-charcoal text-white pt-24 pb-12 px-6 md:px-20 lg:px-40 border-t border-white/5 relative overflow-hidden" id="contact">
+<div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPgo8cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9IjAuMDI1Ii8+Cjwvc3ZnPg==')] opacity-30"></div>
+<div class="max-w-[1440px] mx-auto relative z-10">
+<div class="flex flex-col lg:flex-row justify-between gap-16 mb-20">
+<div class="flex-1 max-w-2xl">
+<h2 class="text-4xl md:text-5xl font-black mb-8 leading-tight">Ready to start your musical journey?</h2>
+<p class="text-white/60 text-lg mb-12 max-w-xl">
+                    Join Bengaluru's most immersive music institute today. Whether you are a beginner or looking to turn professional, we have a place for you.
+                </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
+<div class="space-y-6">
+<div class="flex items-center gap-4 group">
+<div class="p-3 bg-white/5 rounded-full group-hover:bg-primary group-hover:text-background-dark transition-colors">
+<span class="material-symbols-outlined transition-transform">location_on</span>
+</div>
+<div class="flex flex-col">
+<span class="text-xs text-white/40 uppercase tracking-widest font-bold">Location</span>
+<span class="text-white/80">45, 10th Cross Rd, Hebbal, Bengaluru</span>
+</div>
+</div>
+<div class="flex items-center gap-4 group">
+<div class="p-3 bg-white/5 rounded-full group-hover:bg-primary group-hover:text-background-dark transition-colors">
+<span class="material-symbols-outlined transition-transform">call</span>
+</div>
+<div class="flex flex-col">
+<span class="text-xs text-white/40 uppercase tracking-widest font-bold">Call Us</span>
+<span class="text-white/80">+91 98453 55515</span>
+</div>
+</div>
+</div>
+<div class="space-y-6">
+<div class="flex items-center gap-4 group">
+<div class="p-3 bg-white/5 rounded-full group-hover:bg-primary group-hover:text-background-dark transition-colors">
+<span class="material-symbols-outlined transition-transform">mail</span>
+</div>
+<div class="flex flex-col">
+<span class="text-xs text-white/40 uppercase tracking-widest font-bold">Email</span>
+<span class="text-white/80">graceeducationinc@gmail.com</span>
+</div>
+</div>
+<div class="flex items-center gap-4 group">
+<div class="p-3 bg-white/5 rounded-full group-hover:bg-primary group-hover:text-background-dark transition-colors">
+<span class="material-symbols-outlined transition-transform">schedule</span>
+</div>
+<div class="flex flex-col">
+<span class="text-xs text-white/40 uppercase tracking-widest font-bold">Hours</span>
+<span class="text-white/80">Mon-Sun: 10 AM - 8 PM</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col md:flex-row items-center justify-between pt-12 border-t border-white/10 gap-8">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-2xl">music_note</span>
+<h2 class="text-white text-base font-bold tracking-tight uppercase">Grace School Of International Music</h2>
+</div>
+<div class="flex gap-6">
+<a class="text-white/40 hover:text-primary transition-colors text-xs uppercase tracking-widest font-bold" href="https://www.instagram.com/grace.musicschool/">Instagram</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
